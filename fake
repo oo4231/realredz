@@ -9,7 +9,7 @@ gui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
 
 -- Main frame with width 250
 local main = Instance.new("Frame")
-main.Size = UDim2.new(0, 250, 0, 200) -- Width: 250, Height: 200
+main.Size = UDim2.new(0, 400, 0, 200) -- Width: 250, Height: 200
 main.Position = UDim2.new(0.5, -125, 0.5, -100) -- Centered (half of width and height)
 main.BackgroundColor3 = Color3.fromRGB(40, 40, 45) -- Dark background
 main.BorderSizePixel = 0
