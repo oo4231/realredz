@@ -9,7 +9,7 @@ gui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
 
 -- Adjust the main frame size to fit all content
 local main = Instance.new("Frame")
-main.Size = UDim2.new(0, 400, 0, 200) -- Increased height to fit all content
+main.Size = UDim2.new(0, 300, 0, 200) -- Increased height to fit all content
 main.Position = UDim2.new(0.5, -100, 0.5, -100)
 main.BackgroundColor3 = Color3.fromRGB(40, 40, 45) -- Dark background
 main.BorderSizePixel = 0
