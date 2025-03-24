@@ -7,9 +7,10 @@ gui.ResetOnSpawn = false
 gui.Name = "CoolUI"
 gui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
 
+-- Adjust the main frame size to fit all content
 local main = Instance.new("Frame")
-main.Size = UDim2.new(0, 200, 0, 160)
-main.Position = UDim2.new(0.5, -100, 0.5, -80)
+main.Size = UDim2.new(0, 200, 0, 200) -- Increased height to fit all content
+main.Position = UDim2.new(0.5, -100, 0.5, -100)
 main.BackgroundColor3 = Color3.fromRGB(40, 40, 45) -- Dark background
 main.BorderSizePixel = 0
 main.Parent = gui
@@ -34,6 +35,7 @@ shadow.Parent = main
 
 local label = Instance.new("TextLabel")
 label.Size = UDim2.new(1, 0, 0, 30)
+label.Position = UDim2.new(0, 0, 0, 0)
 label.BackgroundTransparency = 1
 label.Text = "Pyro Hubv2"
 label.TextColor3 = Color3.fromRGB(255, 255, 255) -- White text
@@ -107,7 +109,7 @@ settingsTab.MouseButton1Click:Connect(function()
     switchTab("Settings")
 end)
 
--- Add content to the Menu tab
+-- Function to create toggles
 local function makeToggle(text, yPos, color, parent)
     local base = Instance.new("Frame")
     base.Size = UDim2.new(0.9, 0, 0, 30)
